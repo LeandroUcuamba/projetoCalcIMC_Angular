@@ -1,0 +1,6 @@
+.img{
+    background-image: url(ImageIMC.jpg);
+    background-size: cover;
+    width: 480px;
+    height: 220px;
+}

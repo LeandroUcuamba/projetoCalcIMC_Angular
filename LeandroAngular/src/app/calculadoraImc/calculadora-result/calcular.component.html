@@ -1,0 +1,20 @@
+<div class="container">
+    <div class="row">
+        <div class="col">
+           Peso:
+           <input type="number" [(ngModel)]="peso" class="form-cotrol" step="0.010"/>
+        </div>
+        <div class="col">
+            Altura:
+            <input type="number" [(ngModel)]="altura" class="form-cotrol" step="0.010"/>
+         </div>
+         <div class="espaco"></div>
+         <div class="row">
+            <br>
+            <button type="button" name="button" (click)="calcularImc()" class="btn btn-outline-primary">Calcular</button>
+         </div>
+    </div>
+    <div class="espaco"></div>
+    <h3 class="text-center">Resultado:<b> {{imc}} </b></h3>
+
+</div>
